@@ -42,6 +42,14 @@
       </div>
     </nav>
     <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On!</strong>Get a 12 month subscription for the price of 6. 
+                    <a href="">See here for details</a>
+                </div>
+            </div>
+        </div>
       <!-- Callout -->
       <div class="row">
         <div class="col-12">
@@ -77,21 +85,40 @@
         </div>
         <div class="row">
           <div class="col-12 col-md-6">
-            <blockquote class="blockquote">
-              <p>
-                I've been introduced to more than 10 great international
-                whiskeys I never knew about.
-              </p>
-              <p>- Jane Doe</p>
-            </blockquote>
+            <div class="media">
+                <div class="d-none d-sm-block">
+              <img
+                src="/media/images/girl-img-bootstr.png"
+                alt="girl"
+                class="rounded-circle mr-3"
+                height="100"
+                width="100"
+              />
+            </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>
+                    I've been introduced to more than 10 great international
+                    whiskeys I never knew about.
+                  </p>
+                  <p>- Jane Doe</p>
+                </blockquote>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6">
-            <blockquote class="blockquote">
-              <p>I haven't been sober for months!</p>
-              <p>- Jane Doe</p>
-            </blockquote>
+            <div class="media">
+                <div class="d-none d-sm-block">
+                <img src="/media/images/guy-img-bootstr.png" alt="guy" class="rounded-circle mr-3" height="100" width="100" />
+                </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                    <p>I haven't been sober for months!</p>
+                    <p>- Jane Doe</p>
+                </blockquote>
+              </div>
+            </div>
           </div>
-        </div>
       </section>
       <!-- /.quotes -->
       <hr />
@@ -106,38 +133,58 @@
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
-              <h3>Feature 1</h3>
+              <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Whisky or whiskey is a type of liquor made from fermented grain
+                mash. Various grains (which may be malted) are used for
+                different varieties, including barley, corn, rye, and wheat.
+                Whisky is typically aged in wooden casks, which are typically
+                made of charred white oak.
               </p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              <p>
+                <a
+                  class="btn btn-sm btn-light"
+                  href="https://en.wikipedia.org/wiki/Whisky"
+                  target="_blank"
+                  >Read More</a
+                >
+              </p>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
-              <h3>Feature 2</h3>
+              <h3><i class="fa-regular fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                The word whisky (or whiskey) is an anglicisation of the
+                Classical Gaelic word uisce (or uisge) meaning "water" (now
+                written as uisce in Modern Irish, and uisge in Scottish Gaelic).
               </p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              <p>
+                <a
+                  class="btn btn-sm btn-light"
+                  href="https://en.wikipedia.org/wiki/Whisky"
+                  target="_blank"
+                  >Read More</a
+                >
+              </p>
             </div>
           </div>
           <div class="col-12 d-md-none d-lg-block col-lg-4">
             <div class="feature">
-              <h3>Feature 3</h3>
+              <h3><i class="fa-regular fa-circle-xmark d-none d-sm-inline"></i> Feature 3</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                It is possible that distillation was practised by the
+                Babylonians in Mesopotamia in the 2nd millennium BC, with
+                perfumes and aromatics being distilled...
               </p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              <p>
+                <a
+                  class="btn btn-sm btn-light"
+                  href="https://en.wikipedia.org/wiki/Whisky"
+                  target="_blank"
+                  >Read More</a
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -177,5 +224,8 @@
       </section>
       <!-- /.favorites -->
     </article>
+
+    <!-- fontawesome script-->
+    <script src="https://kit.fontawesome.com/557d350f98.js" crossorigin="anonymous"></script>
   </body>
 </html>

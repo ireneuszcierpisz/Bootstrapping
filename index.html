@@ -12,6 +12,10 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Flamenco&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
 
     <title>Whiskey Drop | Taste a new whiskey every month</title>
   </head>
@@ -54,7 +58,8 @@
         <a href="/login">Sign In / Sign Up</a>
       </div>
     </nav>
-    <article class="container mt-3">
+
+    <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -63,20 +68,25 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="container-fluid callout-container">
       <!-- Callout -->
+    <div class="opaque-overlay">&nbsp;</div>
       <div class="row">
         <div class="col-12">
           <section class="callout jumbotron text-center">
-            <h1 class="text-uppercase">
+            <h1 class="text-uppercase jumbotron-header">
               The finest whiskeys delivered to your doorstep.
             </h1>
+            <hr class="block-divider block-divider--orange">
             <p class="lead">
               Sign up today to start receiving the world's best whiskeys every
               month. <s class="d-none d-sm-inline">$19.99</s>
               <span class="d-inline d-sm-none"><br /></span>
               <strong><mark>First one is free!</mark></strong>
             </p>
-            <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+            <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
             <p class="text-muted">
               <small
                 >You must be over 18 to sign up to our service. Plese, drink
@@ -87,9 +97,10 @@
         </div>
       </div>
       <!-- /.callout -->
-      <hr />
+    </div>
 
       <!-- Quotes -->
+    <div class="container quotes-container">
       <section class="quotes">
         <div class="row">
           <div class="col-12 my-5">
@@ -133,10 +144,12 @@
             </div>
           </div>
       </section>
+    </div>
       <!-- /.quotes -->
       <hr />
 
       <!-- Features -->
+      <div class="features-container">
       <section class="features">
         <div class="row">
           <div class="col-12 my-5">
@@ -203,6 +216,9 @@
         </div>
       </section>
       <!-- /.features -->
+    </div>
+
+    <div class="favorites-container">
       <!-- Favorites -->
       <section class="favorites">
         <h2 class="text-uppercase">Monthly favorites:</h2>
@@ -236,7 +252,7 @@
         </blockquote>
       </section>
       <!-- /.favorites -->
-    </article>
+    </div>
 
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">

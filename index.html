@@ -102,11 +102,13 @@
     </div>
 
       <!-- Quotes -->
-    <div class="container quotes-container">
+    <div class="container-wrapper">
+    <div class="container quotes-container content-container">
       <section class="quotes">
         <div class="row">
-          <div class="col-12 my-5">
+          <div class="col-12 page-header">
             <h2 class="text-uppercase">Quotes:</h2>
+            <hr class="block-divider block-divider--short">
           </div>
         </div>
         <div class="row">
@@ -147,21 +149,24 @@
           </div>
       </section>
     </div>
+    </div>
       <!-- /.quotes -->
-      <hr />
+      <!-- <hr /> -->
 
       <!-- Features -->
-      <div class="features-container">
+      <div class="container-wrapper container-wrapper--red">
+      <div class="container features-container content-container">
       <section class="features">
         <div class="row">
-          <div class="col-12 my-5">
+          <div class="col-12 page-header">
             <h2 class="text-uppercase">Features:</h2>
+            <hr class="block-divider block-divider--short block-divider--white">
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
-              <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
+              <h3><i class="fa-solid fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
               <p>
                 Whisky or whiskey is a type of liquor made from fermented grain
                 mash. Various grains (which may be malted) are used for
@@ -181,7 +186,7 @@
           </div>
           <div class="col-12 col-md-6 col-lg-4">
             <div class="feature">
-              <h3><i class="fa-regular fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
+              <h3><i class="fa-regular fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
               <p>
                 The word whisky (or whiskey) is an anglicisation of the
                 Classical Gaelic word uisce (or uisge) meaning "water" (now
@@ -199,7 +204,7 @@
           </div>
           <div class="col-12 d-md-none d-lg-block col-lg-4">
             <div class="feature">
-              <h3><i class="fa-regular fa-circle-xmark d-none d-sm-inline"></i> Feature 3</h3>
+              <h3><i class="fa-regular fa-circle-xmark d-none d-sm-block"></i> Feature 3</h3>
               <p>
                 It is possible that distillation was practised by the
                 Babylonians in Mesopotamia in the 2nd millennium BC, with
@@ -219,14 +224,19 @@
       </section>
       <!-- /.features -->
     </div>
+    </div>
 
-    <div class="favorites-container">
+    <div class="container-wrapper container-wrapper--whiskey">
+    <div class="container favorites-container content-container">
       <!-- Favorites -->
       <section class="favorites">
+        <div class="col-12 page-header">
         <h2 class="text-uppercase">Monthly favorites:</h2>
+        <hr class="block-divider block-divider--short">
+        </div>
         <blockquote class="blockquote">
           <table class="table">
-            <thead class="thead-light">
+            <thead class="thead-gray">
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
@@ -254,6 +264,7 @@
         </blockquote>
       </section>
       <!-- /.favorites -->
+    </div>
     </div>
 
     <div class="modal" tabindex="-1" id="signUpModal">
